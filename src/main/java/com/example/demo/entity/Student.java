@@ -43,8 +43,6 @@ public class Student {
         this.email = email;
 
     }
-    public Student() {
-    }
 
     
 }
