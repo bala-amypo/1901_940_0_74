@@ -10,6 +10,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
+@Table(name="students")
 public class Student {
     
     @Id
@@ -41,6 +42,8 @@ public class Student {
         this.name = name;
         this.email = email;
 
+    }
+    public Student() {
     }
 
     
