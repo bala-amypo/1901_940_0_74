@@ -1,4 +1,4 @@
-package com.example.aiml.service;
+package com.example.demo.service;
 
 
 import com.example.aiml.entity.Student;
