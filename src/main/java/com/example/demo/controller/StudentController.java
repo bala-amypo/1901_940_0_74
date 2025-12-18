@@ -7,13 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Student;
 import com.example.demo.service.StudentService;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 public class StudentController {
     @Autowired
     StudentService studentService;
     @PostMapping("/postdata")
-    public Student postdata(@RequestBody Student student){
+    public  ResponseEntity<Student> postdata(@@RequestBody Student student){
         return studentService.saveStudent(student);
     }
     
