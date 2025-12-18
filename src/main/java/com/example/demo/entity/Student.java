@@ -15,6 +15,7 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @NotBlank(message="Name field cannot be empty")
     private String name;
     private String email;
     public Long getId() {
