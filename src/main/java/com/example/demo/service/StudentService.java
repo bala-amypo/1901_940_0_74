@@ -6,5 +6,5 @@ public interface StudentService {
 
     Student saveStudent(Student student);
     Student getStudentById(Long id);
-    Student update
+    Student updatedata(Long id,Student student);
 }
