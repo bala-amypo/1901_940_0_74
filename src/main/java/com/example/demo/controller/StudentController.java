@@ -32,6 +32,6 @@ public class StudentController {
     public Student updatedata(@PathVariable Long id,@Valid @RequestBody Student student){
         return studentService.updatedata(id,student);
     }
-    @DeleteMapping("")
+    @DeleteMapping("/")
 
 }
