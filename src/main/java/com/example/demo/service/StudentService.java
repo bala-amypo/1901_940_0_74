@@ -7,4 +7,5 @@ public interface StudentService {
     Student saveStudent(Student student);
     Student getStudentById(Long id);
     Student updatedata(Long id,Student student);
+    Student deleted
 }
