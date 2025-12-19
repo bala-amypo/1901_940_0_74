@@ -28,6 +28,7 @@ public class StudentController {
     public Student getdata(@PathVariable Long id){
          return studentService.getStudentById(id);
     }
-    
+    @PutMapping("/updatedata/{id}")
+    public Student updatedata(@PathVariable )
 
 }
